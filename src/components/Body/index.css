@@ -1,0 +1,79 @@
+/* Write your CSS here */
+.body-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 80%;
+  width: 80%;
+  /* border: solid 1px yellow; */
+}
+.left-navbar-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-width: 30%;
+  padding: 2%;
+  background-color: #cbd5e1;
+  margin: 1%;
+  /* border: 1px solid darkblue; */
+}
+.left-navbar-heading {
+  color: #475569;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 80%;
+}
+.unordered {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+.left-navbar-para {
+  color: #64748b;
+  font-family: 'roboto';
+  font-family: 300;
+  font-size: 80%;
+  padding-left: 5%;
+  list-style-type: none;
+}
+.body-content-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  min-width: 40%;
+  padding: 2%;
+  background-color: #f1f5f9;
+  margin: 1%;
+  /* border: 1px solid pink; */
+}
+.right-navbar-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  min-width: 30%;
+  padding: 2%;
+  margin: 1%;
+  background-color: #cbd5e1;
+  /* border: 1px solid darkblue; */
+}
+.right-navbar-heading {
+  color: #475569;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 80%;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #64748b;
+  height: 45%;
+  width: 70%;
+  margin-bottom: 5%;
+}
+.box-para {
+  color: #475569;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 100%;
+}
